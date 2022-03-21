@@ -1,0 +1,46 @@
+name: personal-dev
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.8.12
+  - pytorch=1.9.1
+  - torchvision=0.10.1
+  - cudatoolkit=9.0
+  - pip=21.2.4
+  - future>=0.17.1
+  - pip:
+      - azure-storage-blob==12.9.0
+      - mlflow==1.23.0
+      - azureml-mlflow==1.37.0
+      - azureml-core==1.37.0
+      - azureml-train-automl-client==1.37.0
+      - numpy==1.22.1
+      - flake8==4.0.1
+      - flake8-bugbear==22.1.11
+      - isort==5.10.1
+      - black==21.12b0
+      - jupytext==1.13.6
+      - bandit==1.7.1
+      - ipykernel==6.7.0
+      - plotly==5.5.0
+      - scikit-learn==1.0.2
+      - tqdm==4.62.3
+      - pillow==9.0.0
+      - pre-commit==2.17.0
+      - defusedxml==0.7.1
+      - streamlit==1.4.0
+      - opencv-python-headless==4.5.5.62
+      - pytest==6.2.5
+      - pytest-azurepipelines==0.8.0
+      - pytest-cov==3.0.0
+      - pandas==1.3.5
+      - deepdiff==5.7.0
+      - typer==0.4.0
+      - jsonlines==3.0.0
+      - albumentations==1.1.0
+      - timm==0.5.4
+      - pytorch-lightning==1.5.8
+      - effdet==0.3.0
+      - torchmetrics==0.6.2
